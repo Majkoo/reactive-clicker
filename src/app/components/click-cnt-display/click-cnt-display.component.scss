@@ -1,0 +1,17 @@
+
+.display { 
+	display: block;
+    position: absolute;
+    background-color: #3498db;
+    color: white;
+	padding: auto auto;
+	bottom: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Rubik One', sans-serif;
+	text-decoration: none;
+	font-size: 4vw;
+    width: 14vw;
+  	border: none;
+    text-align: center;
+}
