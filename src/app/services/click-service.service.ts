@@ -6,15 +6,13 @@ import { Subject } from 'rxjs';
 })
 export class ClickServiceService {
 
+  cpsSubject = new Subject<string>();
   clickSubject = new Subject<number>();
   clickCount: number;
+
 
   constructor() {
     this.clickCount = 0;
   }
 
-  clickObserver = {
-    next: (v: number) => { this.clickCount++; },
-    error: (err: any) => console.error('Observer got an error: ' + err),
-  };
 }
