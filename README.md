@@ -1,4 +1,4 @@
-# Link to app: 	react-clicker.ct8.pl
+# Link to app: 	http://react-clicker.ct8.pl/
 # ReactClicker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
